@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Results Summary component</title>
+  </head>
+  <body>
+    <main class="app">
+      <div class="app-content">
+        <div class="result-container">
+          <p class="result-title">Your Result</p>
+
+          <div class="score-container">
+            <span class="score-reached">76</span>
+            <span class="score-100">of 100</span>
+          </div>
+
+          <div class="result-details">
+            <p class="details-title">Great</p>
+            <p class="details-description">
+              Your scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+
+        <div class="summary-container">
+          <p class="summary-title">Summary</p>
+
+          <div class="summary-details-list">
+            
+            <div class="summary-card" id="red-card">
+              <div class="card-label">
+                <img src="./assets/images/icon-reaction.svg" alt="" />
+                <span class="label-title" id="red-label">Reaction</span>
+              </div>
+              <span class="card-score">
+                <span class="card-score-left">80</span>
+                <span class="card-score-right">/ 100</span></span
+              >
+            </div>
+
+            <div class="summary-card" id="yellow-card">
+              <div class="card-label">
+                <img src="./assets/images/icon-memory.svg" alt="" />
+                <span class="label-title" id="yellow-label">Memory</span>
+              </div>
+              <span class="card-score">
+                <span class="card-score-left">92</span>
+                <span class="card-score-right">/ 100</span></span
+              >
+            </div>
+
+            <div class="summary-card" id="green-card">
+              <div class="card-label">
+                <img src="./assets/images/icon-verbal.svg" alt="" />
+                <span class="label-title" id="green-label">Verbal</span>
+              </div>
+              <span class="card-score">
+                <span class="card-score-left">61</span>
+                <span class="card-score-right">/ 100</span></span
+              >
+            </div>
+
+            <div class="summary-card" id="blue-card">
+              <div class="card-label">
+                <img src="./assets/images/icon-visual.svg" alt="" />
+                <span class="label-title" id="blue-label">Visual</span>
+              </div>
+              <span class="card-score">
+                <span class="card-score-left">72</span>
+                <span class="card-score-right">/ 100</span></span
+              >
+            </div>
+          </div>
+
+          <button class="btn-summary">Continue</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
